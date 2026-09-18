@@ -1,0 +1,21 @@
+Mastering Java Operators: Arithmetic, Relational, and Logical in Action
+public class Exercise {
+    public static void main(String[] args){
+     
+         // write code here
+         int a=20,b=10;
+         int plus,minus,mul,div;
+         plus=a+b;
+         minus=a-b;
+         mul=a*b;
+         div=a/b;
+         boolean res=a>b;
+         boolean res1=a>b && b>0;
+         System.out.println("Addition: "+plus);
+         System.out.println("Subtraction: "+minus);
+         System.out.println("Multiplication: "+mul);
+         System.out.println("Division: "+div);
+         System.out.println("Is a greater than b? "+res);
+         System.out.println("Is a > b and b > 0? "+res1);
+    }
+}
